@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Area of Trapezoid</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Area of Trapezoid</h1>
+    <img src="img/image-removebg-preview.png" alt="" />
+
+    <!-- Inputs -->
+    <h2>Inputs</h2>
+    <p>Length of top base (b1): <input id="b1-in" type="number" /></p>
+    <p>Length of bottom base (b2): <input id="b2-in" type="number" /></p>
+    <p>Height of trapezoid (h): <input id="h-in" type="number" /></p>
+
+    <!-- Calculate -->
+    <button id="calc-btn">CALCULATE</button>
+
+    <h2>Output</h2>
+    <!--Drropdown Menu -->
+    <label>Pick a unit:</label>
+    <select id="units">
+      <option value="cm">cm</option>
+      <option value="m">m</option>
+      <option value="ft">ft</option>
+      <option value="in">in</option>
+    </select>
+    <p>
+      The are of the trapezoid is <span id="area-out">----</span
+      ><span id="size1"></span>.
+    </p>
+    <div id="pic"></div>
+  </body>
+</html>
